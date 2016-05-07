@@ -1,0 +1,7 @@
+.cover .cover-image {
+	background-image : url('../images/information-age-075.png');
+}
+
+.cover h1 {
+	text-shadow: 0px 0px 12px darkcyan;
+}
