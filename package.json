@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/Garmega/SparkWebsite/issues"
   },
-  "homepage": "https://github.com/Garmega/SparkWebsite#readme"
+  "homepage": "https://github.com/Garmega/SparkWebsite#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-template-html": "^0.1.0"
+  }
 }
