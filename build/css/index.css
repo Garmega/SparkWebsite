@@ -1,5 +1,11 @@
+#overview {
+	background-color: hsla(200, 40%, 40%, 1);
+}
+
 #overview .cover-image {
-	background-image : url('../../assets/images/information-age-075.png');
+	background-image : url('../../assets/images/ideation.jpg');
+	z-index: 0;
+	opacity: 0.5;
 }
 
 #call-to-action .cover-image {
