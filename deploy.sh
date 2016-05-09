@@ -27,7 +27,8 @@ echo "This will upload your local files to the webserver, overwriting all existi
 promptContinue
 
 echo "Uploading files to webserver..."
-scp -rp "$REPO_DIR" ksf7@vergil.u.washington.edu:./public_html
+scp -rp "$REPO_DIR/build" "$REPO_DIR/assets" ksf7@vergil.u.washington.edu:./public_html/
+#scp -rp "$REPO_DIR/assets" ksf7@vergil.u.washington.edu:./public_html/assets
 
 echo "Upload complete"
 exit 1
