@@ -1,3 +1,9 @@
+#overview {
+	background-color: hsl(0, 80%, 20%);
+}
+
 #overview .cover-image {
-	background-image : url('../../assets/images/Material-design.jpg');
+	background-image : url('../../assets/images/community.jpg');
+	background-position-y: -70px;
+	opacity: 0.75;
 }

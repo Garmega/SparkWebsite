@@ -3,18 +3,30 @@
 	margin-top: 50px;
 }
 
+#overview.cover {
+	min-height: 50%;
+}
+
 .cover {
-	min-height: 40%;
+	min-height: 60%;
 }
 
 .cover h1, .cover h2 {
 	text-shadow: 0px 0px 6px lightgrey;
 }
 
-span.logo {
-	background-color: rgb(240, 105, 105);
+.cover .cover-image {
+	z-index: 0;
+}
+
+.navbar-brand span {
+	color: rgb(240, 105, 105);
+}
+
+.navbar-brand .logo {
+	background-color: transparent;
 	background-size: 40px;
-	background-image: url('../../assets/images/logo.png');
+	background-image: url('../../assets/images/logo-colored.png');
 	background-repeat: no-repeat;
 	background-position: center top;
 	display: inline-block;
@@ -27,4 +39,9 @@ span.logo {
 
 .text-primary {
 	color: rgb(240, 105, 105);
+}
+
+.vertical-center {
+	display: flex;
+    align-items: center
 }

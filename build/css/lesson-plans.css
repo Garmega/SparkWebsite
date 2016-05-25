@@ -1,3 +1,8 @@
+#overview {
+	background-color: rgb(100, 105, 105);
+}
+
 #overview .cover-image {
-	background-image : url('../../assets/images/lesson-plans-cover.jpg');
+	background-image : url('../../assets/images/google-material-design.jpg');
+	opacity: 0.5;
 }
