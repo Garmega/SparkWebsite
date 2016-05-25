@@ -1,6 +1,14 @@
+#description.section {
+	background-color: rgb(232, 232, 232);
+}
+
 #overview {
 	background-color: rgb(240, 105, 105);
 	margin-top: 40px;
+}
+
+#overview.cover {
+	min-height: 60%;
 }
 
 #overview .cover-image {
@@ -24,4 +32,8 @@
 
 #call-to-action .cover-image {
 	background-image : url('../../assets/images/Google_Material-Design_10-2998x1998.jpg');
+}
+
+.infographic img {
+	width: 100%;
 }

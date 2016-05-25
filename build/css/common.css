@@ -1,8 +1,14 @@
 
 #overview {
-	min-height: 60%;
-	text-shadow: 0px 0px 6px lightgrey;
 	margin-top: 50px;
+}
+
+.cover {
+	min-height: 40%;
+}
+
+.cover h1, .cover h2 {
+	text-shadow: 0px 0px 6px lightgrey;
 }
 
 span.logo {
