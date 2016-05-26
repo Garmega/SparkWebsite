@@ -1,0 +1,21 @@
+
+#call-to-action {
+	background-color: hsl(180, 80%, 40%);
+}
+
+#call-to-action .cover-image {
+	background-image : url('../../assets/images/material-design.jpg');
+	opacity: 0.5;
+}
+
+#overview .cover-image {
+	background-image : url('../../assets/images/Material-design.jpg');
+}
+
+#framework .img-thumbnail {
+	height: 600px;
+}
+
+#framework iframe {
+	border: none;
+}

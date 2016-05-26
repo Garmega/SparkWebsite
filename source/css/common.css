@@ -19,6 +19,16 @@
 	z-index: 0;
 }
 
+.img-thumbnail {
+	width: 100%;
+}
+
+.img-thumbnail iframe {
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
 .navbar-brand span {
 	color: rgb(240, 105, 105);
 }
@@ -35,6 +45,29 @@
 	margin: -15px 0px;
 	height: 40px;
 	width: 40px;
+}
+
+.panel-heading h4 {
+    white-space: nowrap;
+    overflow: hidden;
+    line-height: normal;
+    padding-top: 8px;
+}
+
+.panel-heading .btn {
+	margin-right: 10px;
+}
+
+.panel-title > a .fa-chevron-right {
+    display: none;
+}
+
+.panel-title > a.collapsed .fa-chevron-right {
+    display: inline-block;
+}
+
+.panel-title > a.collapsed .fa-chevron-down {
+    display: none;
 }
 
 .text-primary {
