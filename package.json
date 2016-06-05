@@ -17,7 +17,16 @@
   },
   "homepage": "https://github.com/Garmega/SparkWebsite#readme",
   "devDependencies": {
+    "glob": "^7.0.3",
     "gulp": "^3.9.1",
-    "gulp-template-html": "^0.1.0"
+    "gulp-dest": "^0.2.3",
+    "gulp-markdown": "^1.2.0",
+    "gulp-print": "^2.0.1",
+    "gulp-template-html": "git+https://github.com/Keegomyneego/gulp-template-html.git",
+    "js-beautify": "^1.6.3",
+    "merge-stream": "^1.0.0",
+    "path": "^0.12.7",
+    "transform-stream": "^0.2.2",
+    "underscore": "^1.8.3"
   }
 }
