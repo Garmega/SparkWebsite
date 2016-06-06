@@ -1,5 +1,6 @@
 body {
     font-family: sans-serif;
+    color: dimgrey;
 }
 
 #overview {
@@ -88,7 +89,18 @@ body {
 }
 
 .text-primary {
-	color: rgb(240, 105, 105);
+    color: salmon;
+	/*color: rgb(240, 105, 105);*/
+}
+
+.thumbnail {
+    margin-top: 20px;
+}
+
+.thumbnail .caption {
+    color: inherit;
+    margin: 9px;
+    padding: 0px;
 }
 
 .vertical-center {
